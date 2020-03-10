@@ -4,7 +4,11 @@ const resolvers = require('./resolvers.js')
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  cors: {
+    origin: '*',
+    credentials: true
+  }
 })
 
 server.listen().then(({ url }) => {
