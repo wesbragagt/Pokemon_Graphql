@@ -10,6 +10,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "@now/node": "^1.4.1",
     "apollo-server": "^2.11.0",
     "graphql": "^14.6.0"
   }
